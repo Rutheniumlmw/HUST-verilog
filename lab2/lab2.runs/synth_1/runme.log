@@ -1,0 +1,1415 @@
+
+*** Running vivado
+    with args -log _7Seg_Driver_Choice.vds -m64 -mode batch -messageDb vivado.pb -notrace -source _7Seg_Driver_Choice.tcl
+
+WARNING: Default location for XILINX_VIVADO_HLS not found: 
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source _7Seg_Driver_Choice.tcl -notrace
+Command: synth_design -top _7Seg_Driver_Choice -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 246.813 ; gain = 73.316
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module '_7Seg_Driver_Choice' [D:/studysourcefile/verilog/lab2/lab2.srcs/sources_1/new/ex23.v:23]
+WARNING: [Synth 8-387] label required on module instance [D:/studysourcefile/verilog/lab2/lab2.srcs/sources_1/new/ex23.v:29]
+INFO: [Synth 8-638] synthesizing module '_7Seg_Driver_Decode' [D:/studysourcefile/verilog/lab2/lab2.srcs/sources_1/new/ex22.v:23]
+WARNING: [Synth 8-3848] Net AN in module/entity _7Seg_Driver_Decode does not have driver. [D:/studysourcefile/verilog/lab2/lab2.srcs/sources_1/new/ex22.v:26]
+INFO: [Synth 8-256] done synthesizing module '_7Seg_Driver_Decode' (1#1) [D:/studysourcefile/verilog/lab2/lab2.srcs/sources_1/new/ex22.v:23]
+WARNING: [Synth 8-387] label required on module instance [D:/studysourcefile/verilog/lab2/lab2.srcs/sources_1/new/ex23.v:30]
+INFO: [Synth 8-638] synthesizing module 'choice' [D:/studysourcefile/verilog/lab2/lab2.srcs/sources_1/new/ex23.v:34]
+INFO: [Synth 8-256] done synthesizing module 'choice' (2#1) [D:/studysourcefile/verilog/lab2/lab2.srcs/sources_1/new/ex23.v:34]
+INFO: [Synth 8-256] done synthesizing module '_7Seg_Driver_Choice' (3#1) [D:/studysourcefile/verilog/lab2/lab2.srcs/sources_1/new/ex23.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 281.016 ; gain = 107.520
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 281.016 ; gain = 107.520
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 498.168 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 498.168 ; gain = 324.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 498.168 ; gain = 324.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 13 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 13 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 14 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 14 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 15 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 15 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 16 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 16 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 17 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 17 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 18 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 18 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 19 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 19 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 20 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 20 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 21 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 21 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 22 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 22 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 23 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 23 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 24 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 24 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 25 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 25 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 26 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 26 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 27 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 27 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 28 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 28 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 33 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 33 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 34 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 34 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 35 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 35 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 36 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 36 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 37 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 37 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 38 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 38 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 39 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 39 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 40 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 40 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 41 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 41 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 42 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 42 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 43 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 43 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 44 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 44 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 45 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 45 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 46 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 46 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 47 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 47 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 48 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 48 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 60 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 60 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 61 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 61 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 62 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 62 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 63 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 63 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 64 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 64 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 65 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 65 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 66 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 66 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 67 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 67 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 69 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 69 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 70 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 70 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 71 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 71 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 72 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 72 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 73 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 73 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 74 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 74 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 75 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 75 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 76 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 76 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 498.168 ; gain = 324.672
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 498.168 ; gain = 324.672
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module _7Seg_Driver_Decode 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      8 Bit        Muxes := 1     
+Module choice 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 498.168 ; gain = 324.672
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design _7Seg_Driver_Choice has port SEG[7] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 498.168 ; gain = 324.672
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 498.168 ; gain = 324.672
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 498.168 ; gain = 324.672
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 498.168 ; gain = 324.672
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 498.168 ; gain = 324.672
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 13 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 13 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 14 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 14 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 15 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 15 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 16 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 16 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 17 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 17 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 18 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 18 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 19 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 19 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 20 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 20 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 21 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 21 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 22 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 22 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 23 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 23 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 24 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 24 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 25 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 25 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 26 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 26 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 27 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 27 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 28 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 28 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 33 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 33 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 34 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 34 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 35 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 35 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 36 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 36 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 37 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 37 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 38 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 38 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 39 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 39 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 40 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 40 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 41 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 41 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 42 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 42 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 43 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 43 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 44 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 44 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 45 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 45 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 46 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 46 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 47 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 47 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 48 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 48 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 60 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 60 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 61 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 61 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 62 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 62 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 63 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 63 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 64 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 64 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 65 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 65 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 66 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 66 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 67 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 67 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 69 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 69 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 70 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 70 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 71 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 71 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 72 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 72 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 73 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 73 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 74 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 74 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 75 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 75 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+incorrect argument "-dict" for "set_property" at line 76 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+incorrect set of required parameters for "set_property" at line 76 of file {D:/studysourcefile/verilog/lab2/lab2.srcs/constrs_1/imports/实验2 -  简单组合电路设计/Nexys4DDR_Master.xdc}
+---------------------------------------------------------------------
+Usage:
+  set_property
+    [-help]
+    [-quiet]
+    attribute
+    value
+    object
+    [{>|>>} <stdoutFile>]
+---------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 549.578 ; gain = 376.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 549.578 ; gain = 376.082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 569.461 ; gain = 395.965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 569.461 ; gain = 395.965
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 569.461 ; gain = 395.965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 569.461 ; gain = 395.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 569.461 ; gain = 395.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 569.461 ; gain = 395.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     8|
+|2     |LUT4 |     7|
+|3     |IBUF |    16|
+|4     |OBUF |    32|
++------+-----+------+
+
+Report Instance Areas: 
++------+-----------------+--------------------+------+
+|      |Instance         |Module              |Cells |
++------+-----------------+--------------------+------+
+|1     |top              |                    |    63|
+|2     |  nolabel_line29 |_7Seg_Driver_Decode |     6|
+|3     |  nolabel_line30 |choice              |     8|
++------+-----------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 569.461 ; gain = 395.965
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 569.461 ; gain = 159.328
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 569.461 ; gain = 395.965
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 569.461 ; gain = 376.766
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 569.461 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed May 04 20:38:42 2022...
